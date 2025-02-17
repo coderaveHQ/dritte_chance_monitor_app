@@ -1,0 +1,42 @@
+name: dritte_chance_monitor_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Fonts
+  google_fonts: ^6.2.1
+
+  # Others
+  window_manager: ^0.4.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  # Linting
+  flutter_lints: ^4.0.0
+
+  # Generators
+  build_runner: ^2.4.12
+
+  # Release stuff
+  msix: ^3.16.8
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo.jpeg
+
+msix_config:
+  display_name: DritteChance Monitor
+  publisher_display_name: coderave
+  identity_name: dev.coderave.dritte-chance-monitor-app
+  msix_version: 1.0.0.0
