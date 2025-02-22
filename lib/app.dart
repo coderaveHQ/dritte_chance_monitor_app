@@ -1,14 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 
-import 'package:google_fonts/google_fonts.dart';
+import 'package:dritte_chance_monitor_app/playlist_page.dart';
+import 'package:dritte_chance_monitor_app/playlists.dart';
+import 'package:dritte_chance_monitor_app/playlists_page.dart';
+import 'package:dritte_chance_monitor_app/loading_page.dart';
 
-import 'package:dritte_chance_monitor_app/1.dart';
-import 'package:dritte_chance_monitor_app/2.dart';
-import 'package:dritte_chance_monitor_app/3.dart';
-import 'package:dritte_chance_monitor_app/4.dart';
-import 'package:dritte_chance_monitor_app/5.dart';
-import 'package:dritte_chance_monitor_app/6.dart';
 
 class App extends StatefulWidget {
 
@@ -20,38 +16,15 @@ class App extends StatefulWidget {
 
 class _AppState extends State<App> {
 
-  final FocusNode _focusNode = FocusNode();
   bool _isLogoShown = true;
-  int _selectedSongIndex = 1;
+  Playlist? _selectedPlaylist;
 
-  String get titleForCurrentIndex => switch (_selectedSongIndex) {
-    1 => title1,
-    2 => title2,
-    3 => title3,
-    4 => title4,
-    5 => title5,
-    6 => title6,
-    _ => ''
-  };
-
-  String get contentForCurrentIndex => switch (_selectedSongIndex) {
-    1 => text1,
-    2 => text2,
-    3 => text3,
-    4 => text4,
-    5 => text5,
-    6 => text6,
-    _ => ''
-  };
-
-  void nextSong() {
-    if (_selectedSongIndex == 6) return;
-    setState(() => _selectedSongIndex++);
+  void _selectPlaylist(Playlist playlist) {
+    setState(() { _selectedPlaylist = playlist; });
   }
 
-  void previousSong() {
-    if (_selectedSongIndex == 1) return;
-    setState(() => _selectedSongIndex--);
+  void _onBackToMenu() {
+    setState(() { _selectedPlaylist = null; });
   }
 
   @override
@@ -64,74 +37,18 @@ class _AppState extends State<App> {
   @override
   Widget build(BuildContext context) {
     if (_isLogoShown) {
-      return Scaffold(
-        backgroundColor: Colors.black,
-        body: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Image.asset(
-              'assets/logo.jpeg',
-              fit: BoxFit.contain
-            ),
-            const SizedBox(height: 50.0),
-            Text(
-              'TIME TO ROCK!',
-              textAlign: TextAlign.center,
-              style: GoogleFonts.graduate(
-                fontSize: 48.0,
-                color: const Color(0xFFFDFAD8),
-                fontWeight: FontWeight.w700
-              )
-            )
-          ]
-        )
+      return const LoadingPage();
+    }
+
+    if (_selectedPlaylist == null) {
+      return PlaylistsPage(
+        onPlaylistSelected: _selectPlaylist
       );
     }
     
-    return KeyboardListener(
-      focusNode: _focusNode,
-      autofocus: true, 
-      onKeyEvent: (KeyEvent keyEvent) {
-        if (keyEvent is KeyDownEvent) {
-          switch (keyEvent.logicalKey.keyLabel) {
-            case 'B':
-              previousSong();
-              break;
-            case 'C':
-              nextSong();
-              break;
-            default:
-              break;
-          }
-        }
-
-        _focusNode.requestFocus();
-      },
-      child: Scaffold(
-        backgroundColor: Colors.black,
-        appBar: AppBar(
-          backgroundColor: Colors.black,
-          title: Text(
-            titleForCurrentIndex,
-            style: GoogleFonts.graduate(
-              fontSize: 22.0,
-              color: const Color(0xFFFDFAD8),
-              fontWeight: FontWeight.w700
-            )
-          )
-        ),
-        body: SingleChildScrollView(
-          padding: const EdgeInsets.all(20.0),
-          child: Text(
-            contentForCurrentIndex,
-            style: const TextStyle(
-              fontSize: 16.0,
-              color: Colors.white,
-              fontWeight: FontWeight.w400
-            )
-          )
-        )
-      )
+    return PlaylistPage(
+      playlist: _selectedPlaylist!,
+      onBackToMenu: _onBackToMenu
     );
   }
 }

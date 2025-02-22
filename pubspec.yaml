@@ -1,7 +1,7 @@
 name: dritte_chance_monitor_app
-description: "A new Flutter project."
+description: "A lyrics monitor application for DritteChance."
 publish_to: 'none'
-version: 0.1.0
+version: 1.1.0
 
 environment:
   sdk: ^3.6.1
@@ -23,9 +23,6 @@ dev_dependencies:
   # Linting
   flutter_lints: ^4.0.0
 
-  # Generators
-  build_runner: ^2.4.12
-
   # Release stuff
   msix: ^3.16.8
 
@@ -39,4 +36,4 @@ msix_config:
   display_name: DritteChance Monitor
   publisher_display_name: coderave
   identity_name: dev.coderave.dritte-chance-monitor-app
-  msix_version: 1.0.0.0
+  msix_version: 1.1.0.0
