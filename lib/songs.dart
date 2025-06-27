@@ -97,40 +97,48 @@ enum Song {
     title: 'Niemand',
     text: '''
       - Strophe 1 -
-      Ich Laufe durch die Straßen
-      Allein durch die Nacht
-      Die Uhr schlägt 12, doch ich bin noch wach
+      Ich lauf allein durch 
+      dunkle Straßen,
+      Die Stadt schläft ein doch ich kanns nicht lassen.
 
-      Planlos ohne Ziel, immer gerade aus,
-      Mein kopf sagt halt an
-      Mein Herz sagt lauf
+      Die Uhr schlägt 12 und
+      Ich denk an dich.
+      Mein Kopf sagt halt an, doch ich höre nicht
 
-      - Pre Chorus -
-      Hör doch mal zu 
-      jedes Wort, jede Tat, jeder Rat
-      Für Dich normal,  (Kim) das brauch ich jetzt nicht!
-      Ich will wärme und Geborgenheit, vertrauen und halt, 
-      doch was bekomm ich, Du verstehst mich nicht!
+      - Pre-Chorus 1 -
+      Deine Worte sind wie Lärm, 
+      ich kann sie nicht verstehen
+      Du redest viel, doch bleibst mir fern,
+      Willst die Realität verdrehen
 
-      - Refrain -
-      Ich stehe hier, weiß nicht wohin 
+      - Pre-Chorus 2 -
+      Du sagst, du meinst es gut mit mir,
+      und hör nur Lügen.
+      Was du versprichst, wird nie passieren,
+      wie Schmerzen, die verfliegen.
+
+      - Chorus -
+      Ich stehe hier, weiß nicht wohin
       Baue eine Mauer um mich
-      siehst du meine Tränen denn nicht?
-      Mein Maske durchbrichst Du nicht.
+      Siehst du meine Tränen denn nicht?
+      Meine Maske durchbrichst Du nicht.
 
       - Strophe 2 -
-      kennst du meine Sorgen, kennst du mein Leid,
-      Ich ertrinke in meiner einsamkeit
+      Weißt du was mich
+      Nachts zerreißt?
+      Ich schrei nach Halt und bleib allein.
 
-      Planlos ohne Ziel, kein weg hier raus,
-      Mein kopf sagt halt an
-      Mein Herz sagt lauf
+      - Pre-Chorus 3 -
+      Du sagst, du fühlst, was ich fühl’,
+      doch deine Nähe fehlt.
+      Du flüchtest, wenn es ehrlich wird,
+      und hast dich weggedreht.
 
-      - Refrain -
-      Ich stehe hier, weiß nicht wohin 
+      - Chorus -
+      Ich stehe hier, weiß nicht wohin
       Baue eine Mauer um mich
-      siehst du meine Tränen denn nicht?
-      Mein Maske durchbrichst Du nicht.
+      Siehst du meine Tränen denn nicht?
+      Meine Maske durchbrichst Du nicht.
     '''
   ),
   duBistMeinUntergang(
@@ -597,6 +605,150 @@ enum Song {
       Glaub an dich, bald ist es soweit
       Wir werden bei dir sein
       Sei bereit
+    '''
+  ),
+  onlyStar(
+    title: 'OnlyStar',
+    text: '''
+      - Strophe 1 -
+      Jede Nacht ein neuer Name auf dem Bildschirm
+      Jeder zahlt, um dich ein Stück zu berühren.
+
+      Doch was bleibt, wenn die Lichter ausgehn,
+      Keine Zeit, kein Kopf für dich und mich.
+
+      Erinnerst du dich an die Zeit vor alldem?
+      Als du nur für mich gelacht hast.
+
+      Jetzt sind wir zwei nur noch Teil einer Show,
+      Und ich frag mich ob du das wirklich so wolltest. 
+
+      - Refrain -
+      Du, strahlst für die Welt, doch verblasst für mich,
+      Du, zeigst dich allen, doch versteckst dich vor mir.
+      Teilst deine Welt mit tausenden Fremden,
+      Und ich bin nur ein Schatten dahinter
+
+      - Strophe 2 -
+      Du trägst ein Lächeln, doch ich seh die Last
+      Jeder neue Blick raubt ein Stück deiner Kraft
+
+      Du siehst nur Zahlen, doch ich seh’ den Preis,
+      Ein Leben verkauft für Applaus und Likes.
+
+      - Refrain -
+      OnlyStar (oder Du), strahlst für die Welt, doch verblasst für mich,
+      OnlyStar (oder Du), zeigst dich allen, doch versteckst dich vor mir.
+      Teilst deine Welt mit tausenden Fremden,
+      Und ich bin nur ein Schatten dahinter.
+    '''
+  ),
+  zuSpaet(
+    title: 'Zu spät',
+    text: '''
+      - Strophe 1 -
+      Ich schau durch die alten Fotos, spür deinen Blick
+      Denke immer an dein Lachen, will die Zeiten zurück
+      Fühle mich verloren denn ich weis wir sind nicht mehr
+      Habe viel zu spät gemerkt das mein Stolz uns zerstört
+
+      Hab gewartet hab gezögert hab mich versteckt
+      Hielt mein Herz meine Worte mein Gewissen zurück
+      Du ging’s fort, ich blieb stumm
+      Und jetzt fühl ich mich so taub, verbittert und so dumm
+
+      - Refrain - 
+      Es tut mir leid so leid doch ich sag es dir nicht
+      Die Angst hält mich fest, nimmt mir Sicht
+      Mir fehlt die Zeit, die Zeit kann sie nicht Zurück drehen 
+      Es ist zu spät dich jemals wieder zu sehen
+
+      - Strophe 2 -
+      An Tagen an denen du noch alles für mich warst
+      War das leben leicht, die Nächte klar, hat alles gepasst
+      Doch ich schaffe es nicht dir zu erklären wer ich damals war
+      Das ich bereu was ich dir angetan hab jeden Tag
+
+      Die Angst in mir wächst und wird zur Unentschlossenheit
+      So tief verborgen niemand hört sie wenn sie Schreit
+      Immer wenn ich merk, wir sind nicht mehr
+      Dann fühl ich mich so taub, verbittert und so schwer
+
+      - Refrain -
+      Es tut mir leid so leid doch ich sag es dir nicht
+      Die Angst hält mich fest, nimmt mir Sicht
+      Mir fehlt die Zeit, die Zeit kann sie nicht Zurück drehen 
+      Es ist zu spät dich jemals wieder zu sehen
+
+      Zuspät, die Zeit ist vorbei doch die Sehnsucht die bleibt
+      Und jetzt ist es Zuspät, Zuspät ich wollt dir nur sagen es tut mir so leid
+      Doch jetzt ist es Zuspät 
+
+      - Refrain -
+      Es tut mir leid so leid doch ich sag es dir nicht
+      Die Angst hält mich fest, nimmt mir Sicht
+      Mir fehlt die Zeit, die Zeit kann sie nicht Zurück drehen 
+      Es ist zu spät dich jemals wieder zu sehen
+
+      Zuspät, die Zeit ist vorbei doch die Sehnsucht die bleibt
+      Und jetzt ist es Zuspät, Zuspät ich wollt dir nur sagen es tut mir so leid
+      Doch jetzt ist es Zuspät.
+    '''
+  ),
+  freierFall(
+    title: 'Freier Fall',
+    text: '''
+      - Strophe 1 -
+      Ich bin gelaufen, ohne Ziel,
+      Hab geglaubt, das ist mein Weg.
+      Doch was ich such, liegt viel zu viel
+      Hinter Fassaden aus Beton versteckt.
+
+      Auf dich gezählt - von Anfang an,
+      Blind mein Vertrauen in dich gesetzt,
+      Doch was ich dann langsam erkannte
+      Hat mich einfach nur entsetzt
+
+      - Refrain -
+      Ich bin zu weit weg, um umzudreh’n,
+      Bin zu tief drin, um’s zu versteh’n.
+      Jeder Traum eine Kulisse,
+      Die langsam in sich zerfällt.
+      Doch aus den Scherben baue ich die Szenerie 
+      neu
+
+      - Strophe 2 -
+      Jeder Plan war nur ein Spiel,
+      Und ich hab viel zu lang geschwiegen.
+      Du sprachst von Erfolg und Ziel,
+      Doch zwischen uns waren nur Intrigen.
+
+      Dann hab ich nichts mehr gespürt,
+      nur noch dir hinterher,
+      Hab mich selbst nicht mehr gesehen,
+      Und in mir drin war alles leer
+
+      - Refrain -
+      Ich bin zu weit weg, um umzudreh’n,
+      Bin zu tief drin, um’s zu versteh’n.
+      Jeder Traum eine Kulisse,
+      Die langsam in sich zerfällt.
+      Doch aus den Scherben baue ich die Szenerie 
+      neu
+
+      - Bridge - 
+      alles nur,
+      Illusion,
+      Freier Fall,
+      Immer tiefer
+
+      - Refrain -
+      Ich bin zu weit weg, um umzudreh’n,
+      Bin zu tief drin, um’s zu versteh’n.
+      Jeder Traum eine Kulisse,
+      Die langsam in sich zerfällt.
+      Doch aus den Scherben baue ich die Szenerie 
+      neu
     '''
   );
 

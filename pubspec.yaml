@@ -1,7 +1,7 @@
 name: dritte_chance_monitor_app
 description: "A lyrics monitor application for DritteChance."
 publish_to: 'none'
-version: 1.1.1
+version: 1.2.0
 
 environment:
   sdk: ^3.6.1
