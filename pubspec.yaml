@@ -36,4 +36,5 @@ msix_config:
   display_name: DritteChance Monitor
   publisher_display_name: coderave
   identity_name: dev.coderave.dritte-chance-monitor-app
-  msix_version: 1.1.1.0
+  msix_version: 1.2.0.0
+  signtool_options: /td sha256
