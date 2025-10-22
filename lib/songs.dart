@@ -57,40 +57,70 @@ enum Song {
   wennDuGehst(
     title: 'Wenn du gehst',
     text: '''
-      - Strophe 1 -
-      Ich komm nach Huase 
-      und Was ich seid Ihr jeden Tag,
+      Strophe 1
+      Ich komm nach Hause
+      und was ich sehe jeden Tag,
       Warum wein ich was ist los mit mir
-
       Sag es mir oder sag es mir nicht
-      Ich will nicht 
+      Ich will nicht
       Das du noch weiter, noch weiter gehst
 
-      - Refrain -
-      Und wenn du gehst dann glaub ichg nicht dass du zurück kommst
-      zu Mir
-      Und wenn du gehst dann glaub ich nicht, dass du zurück kommst
-      zu Mir
+      Pre Chr.
+      wenn du gehst, dann glaub ich nicht,
+      Dass du zurück kommst
+      Zu mir
+
+      Chr.
+      Nie mehr zu dir
+      Nie wieder Wir
+      Geh deinen Weg weiter, wir bleiben hier!
+      Nie mehr zu dir
+      Nie wieder Wir
+      Dreh dich nicht um, doch ein Teil von mir bleibt immer hier!
 
 
-      - Strophe 2 -
-      Um es zu verstehen geh ich immer wieder dort hin 
-      Und hole mir das 
-      was ich jeden Tag brauch
-      Es zu vergessen ist nicht sehr leicht siehst du nicht
-      wie weh es tut oder interessiert dich das nicht
+      Strophe 2
+      Um es zu verstehen geh ich immer wieder dort hin
+      Und ich hole mir nur das, was ich brauch
+      Es zu vergessen das, ist nicht sehr leicht,
+      Siehst du nicht,
+      es tut weh interessiert dich das nicht
 
-      - Refrain -
-      Und wenn du gehst dann glaub ich nicht dass du zurück kommst
-      zu Mir
-      Und wenn du gehst dann glaub ich nicht, dass du zurück kommst
-      zu Mir
+      Pre Chr.
+      wenn du gehst, dann glaub ich nicht,
+      Dass du zurück kommst
+      Zu mir
 
-      (ruhig steigernd)
-      Und wenn du gehst dann glaub ichg nicht dass du zurück kommst
-      zu Mir
-      Und wenn du gehst dann glaub ich nicht, dass du zurück kommst
-      zu Mir
+      Chr.
+      Niemehr zu dir
+      Niewieder Wir
+      Geh deinen Weg weiter, wir bleiben hier
+      Niemehr zu dir
+      Niewieder Wir
+      Dreh dich nicht um, doch ein Teil von mir bleibt immer hier
+
+      Wohhh Wohhh
+      Wohh Wohh
+
+
+      wenn du gehst, dann glaub ich nicht,
+      Dass du zurück kommst
+      Zu mir
+      (Ruhig steigernd)
+      wenn du gehst, dann glaub ich nicht,
+      Dass du zurück kommst
+      Zu mir
+
+      Chr.
+      Niemehr zu dir
+      Niewieder Wir
+      Geh deinen Weg weiter, wir bleiben hier
+      Niemehr zu dir
+      Niewieder Wir
+      Dreh dich nicht um, doch ein Teil von mir bleibt immer hier
+
+      Wohhhh Wohhh
+      Wohhh Wohhhh
     '''
   ),
   niemand(
@@ -141,58 +171,43 @@ enum Song {
       Meine Maske durchbrichst Du nicht.
     '''
   ),
-  duBistMeinUntergang(
-    title: 'Du bist mein Untergang',
+  untergang(
+    title: 'Untergang',
     text: '''
-      - Strophe 1 -
-      Jetzt sitz ich hier und gucke raus aus dem fenster
-      In mein kopf suchen mich tausend Gespenster 
+      - Strophe 1 
 
-      Heim
+      Ich steh auf, ich bin verwirrt
+      Ständig denk ich an dich
+      doch lernen tu ich nicht
 
-      Alles dreht sich im Kreis
-      Suche liebe doch ich, 
+      Du, bist was ich brauch,
+      Du bist das was ich hass
+      merken tu ichs nicht
 
-      Ich bin der beste beweis
-      das ich alles verlier
-      wenn ich immer nur streit
-      immer zu hoffen das die Zukunft bleibt
+      Ich bin hier,
+      du bist da, gib mir pillen
+      verweigern tu ichs nicht
 
-      Morgens 8 Uhr 
-      es gibt Pillen auf meinem Nachttisch
-      Die Pflege guckt mich an
-      und ich lach sympathisch
+      Gib mir zeit, die ich brauch 
+      Konkreter sein  
+      nein das will ich nicht!
 
-      Spuck sie aus, 
-      Sie ist aus dem Raum
-      Hole mein Handy 
-      spitte paar Zeilen drauf hinauf
-      Texte in meinem Kopf 
-      Gedanken nehmen ihren lauf
+      Ref.
 
-      Ich bin kaputt (Atem Pause)
-      in meinem Kopf
-      Ich will Sterben (atem Pause)
-      doch sie lassen mich nicht raus! 
-      Fäuste prallen ab von der Wand 
-      Blut an den Wänden meine Hände werden taub
-
-      mache täglich von gebrauch
-      Habe scheiß Gedanken und Wut in meinem Bauch
-
-      - Refrain -
       Du bist mein Untergang
       Bin in der Spirale gefangen
       Du bist Mein Untergang 
       Weil ich ohne dich nicht kann
 
-      - Breakdown -
+      Breakdown
+
       Nein
       Sehen will ich dich nicht
       Nein
       Geh und komm nicht zurück
 
-      - Strophe -
+      Strophe
+
       Beteubung in meinem System
       ich zieh es auf, 
       ich setzt es an und ich weiß, 
@@ -408,8 +423,8 @@ enum Song {
       Der schmerz verfliegt
     '''
   ),
-  deinSchweigen(
-    title: 'Dein Schweigen',
+  schweigen(
+    title: 'Schweigen',
     text: '''
       - Strophe 1 -
       Es fühlt sich an, als wäre ich hier allein,
@@ -448,56 +463,6 @@ enum Song {
       Damit ich merke, dass es dich auch interessiert 
       Komm doch einen Schritt auf mich zu
       Damit ich sehe, dass du auch was investierst
-    '''
-  ),
-  melodie(
-    title: 'Melodie',
-    text: '''
-      - Part 1 -
-      Die Melodie in meinem Kopf lässt mich nicht schlafen
-      Ich liege wach willst du mich eigentlich verarschen?
-      Die Nächte ziehen vorbei und ich fühl mich so leer
-      Deine Stimme fehlt, 
-      alles fällt mir so schwer
-
-      Die Melodie in meinem Kopf raubt mir den Atem
-      Allein zu sein kann ich nicht wirklich ertragen
-      Die Uhr tickt laut in meinem Kopf doch die Zeit bleibt stehen
-      Ich schließe meine Augen dann kann ich dich endlich wieder sehen
-
-      - Chorus -
-      Jede Nacht, lieg ich wach und frage mich
-      was du gerade machst
-      Meine gedanken drehen sich nur um Dich
-
-      Jede Nacht, lieg ich wach mit dieser Melodie
-      in meinem Kopf
-      Die letzten Worte verstummen und du lässt mich im Stich
-
-      - Break -
-      Und ich zähle die Stunden bis die Sonne aufgeht
-      Doch die Zeit 
-      bleibt stehen
-
-      - Part 2 -
-      Die Melodie in meinem Kopf Fäuste prallen gegen die Wand
-      Ich schrei es raus, doch es nimmt keine ende
-      Das Chaos in mir wird niemals enden
-
-      Ich halt das nicht aus, bin wie paralysiert
-      Was hast du bloß aus mir gemacht
-      Wie konnte das passieren
-
-      - Chorus -
-      - Break -
-      Und ich zähl die Stunden bis die Nacht vergeht
-      Doch die Zeit bleibt stehen
-      Doch die Zeit bleibt stehen
-
-      - Chorus -
-      - Outro -
-      Die Melodie in meinem kopf lässt mich nicht schlafen
-      Ich schrei es raus, ich kann es nicht ertragen!
     '''
   ),
   portrait(
@@ -607,8 +572,8 @@ enum Song {
       Sei bereit
     '''
   ),
-  onlyStar(
-    title: 'OnlyStar',
+  hinterDemLicht(
+    title: 'Hinter dem Licht',
     text: '''
       - Strophe 1 -
       Jede Nacht ein neuer Name auf dem Bildschirm
@@ -695,21 +660,90 @@ enum Song {
       Doch jetzt ist es Zuspät.
     '''
   ),
+  allesDrehtSichWeiter(
+    title: 'Alles dreht sich weiter',
+    text: '''
+      Strophe 1:
+      Die Welt zieht vorbei wie ein Film ohne Ton,
+      ich bin mittendrin, doch gehör lange schon
+      Nicht mehr dazu, halt den Atem an,
+      Und bleib reglos, weil ich nicht mehr kann
+
+      Die Luft geht aus, kann nicht mehr klar sehen,
+      Zuviel Unklarheit in meinem System,
+      Kein Blick, kein Wort, Gedanken auf Repeat,
+      Ich weiß nicht mehr, wohin es mich zieht.
+
+      Pre-Chr.:
+      Ein Flimmern, das langsam die Stille durchbricht,
+      Am Ende des Tunnels seh ich noch Licht,
+      Die Kälte vergeht und Stück für Stück
+      Kämpf ich mich zurück
+
+      Chr Neu:
+      Aus der Stille ruft mein Herz,
+      Reißt sich los von all dem Schmerz,
+      Ich geh durchs Feuer, halt es aus, 
+      Schritt für Schritt, wachs’ ich über mich hinaus,
+      Grenzen brechen, Zweifel schwinden,
+      Blick nach vorn, bin bereit zu gewinnen
+
+      Strophe 2:
+      Die Luft wird klar, der Nebel verzieht,
+      ein Sonnenstrahl fällt auf mein Gesicht.
+      Ich atme tief, fühl Boden und Raum,
+      und glaub wieder leise an meinen Traum.
+
+      Das Misstrauen ist laut, doch ich hör nicht mehr hin,
+      ich weiß jetzt genau, wer ich wirklich bin.
+      Das Herz schlägt ruhig, das Ziel so nah,
+      ich geh nicht zurück – ich bin endlich da.
+
+      Pre-Chr2:
+      Ein Feuer, das lodert und nicht erlischt.
+      Am Ende des Tunnels seh ich noch Licht,
+      Die Kälte vergeht und Stück für Stück
+      Kämpfe ich mich zurück
+
+      Chr:
+      Aus der Stille ruft mein Herz,
+      Reißt sich los von all dem Schmerz,
+      Ich geh durchs Feuer, halt es aus,
+      Schritt für Schritt, wachs’ ich über mich hinaus,
+      Grenzen brechen, Zweifel schwinden,
+      Blick nach vorn, bin bereit zu gewinnen
+
+      Chr Cl:
+      Aus der Stille ruft mein Herz,
+      Reißt sich los von all dem Schmerz, 
+
+      Outro:
+      Ich war zu lang mein eigener Feind,
+      hab zu oft den Tag versäumt
+      Doch jetzt steh ich hier, atme ein –
+      bereit, ich selbst zu sein.
+
+      Ich geh durchs Feuer, halt es aus,
+      Schritt für Schritt, wachs’ ich über mich hinaus,
+      Grenzen brechen, Zweifel schwinden,
+      Und ich fang endlich an, mich selbst zu finden
+    '''
+  ),
   freierFall(
     title: 'Freier Fall',
     text: '''
-      - Strophe 1 -
+      (Strophe 1)
       Ich bin gelaufen, ohne Ziel,
       Hab geglaubt, das ist mein Weg.
       Doch was ich such, liegt viel zu viel
-      Hinter Fassaden aus Beton versteckt.
+      Hinter Fassaden aus Beton und Dreck.
 
       Auf dich gezählt - von Anfang an,
       Blind mein Vertrauen in dich gesetzt,
       Doch was ich dann langsam erkannte
-      Hat mich einfach nur entsetzt
+      Hab ich einfach unterschätzt
 
-      - Refrain -
+      (Refrain)
       Ich bin zu weit weg, um umzudreh’n,
       Bin zu tief drin, um’s zu versteh’n.
       Jeder Traum eine Kulisse,
@@ -717,7 +751,7 @@ enum Song {
       Doch aus den Scherben baue ich die Szenerie 
       neu
 
-      - Strophe 2 -
+      (Strophe 2)
       Jeder Plan war nur ein Spiel,
       Und ich hab viel zu lang geschwiegen.
       Du sprachst von Erfolg und Ziel,
@@ -725,10 +759,10 @@ enum Song {
 
       Dann hab ich nichts mehr gespürt,
       nur noch dir hinterher,
-      Hab mich selbst nicht mehr gesehen,
-      Und in mir drin war alles leer
+      Hab mich selbst nicht mehr gefühlt,
+      Und meine sicht war verzeert
 
-      - Refrain -
+      (Refrain)
       Ich bin zu weit weg, um umzudreh’n,
       Bin zu tief drin, um’s zu versteh’n.
       Jeder Traum eine Kulisse,
@@ -736,13 +770,7 @@ enum Song {
       Doch aus den Scherben baue ich die Szenerie 
       neu
 
-      - Bridge - 
-      alles nur,
-      Illusion,
-      Freier Fall,
-      Immer tiefer
-
-      - Refrain -
+      (Refrain)
       Ich bin zu weit weg, um umzudreh’n,
       Bin zu tief drin, um’s zu versteh’n.
       Jeder Traum eine Kulisse,
@@ -750,6 +778,170 @@ enum Song {
       Doch aus den Scherben baue ich die Szenerie 
       neu
     '''
+  ),
+  heyDu(
+    title: 'Hey du',
+    text: '''
+      Strophe 1:
+      Das Scheinwerferlicht leuchtet so grell, 
+      Der Weg ist weit und Regen fällt,
+      Wir fahren sowieso viel zu schnell,
+      Und im Radio läuft unser Lied 
+
+      Pre-Chorus:
+      Du & Ich - Wie Tag und Nacht
+      Du & Ich - mehr brauch ich nicht
+
+      Refrain:
+      Hey Du, nimm meine Hand und lauf,
+      Halt sie fest, nichts hält uns auf.
+      Hey Du, es gibt kein Zurück,
+      Nur wir zwei in diesem Augenblick.
+
+      Strophe 2:
+      Die Straßen gehörn uns in der Nacht
+      Wir sind schon viel zu lange wach
+
+      Vergiss die Zeit, die dich runterzieht
+      Lass alles los, was dich hier noch hält
+      Vergiss alles, was dich eh nur nervt
+      Denn im Radio läuft unser Lied
+
+      Pre-Chorus:
+
+      Du & Ich - Wie Tag und Nacht
+      Du & Ich - mehr brauch ich nicht
+
+      Refrain:
+      Hey Du, nimm meine Hand und lauf,
+      Halt sie fest, nichts hält uns auf.
+      Hey Du, es gibt kein Zurück,
+      Nur wir zwei in diesem Augenblick.
+    '''
+  ),
+  wirStehenZusammen(
+    title: 'Wir stehen zusammen',
+    text: '''
+      Strophe1
+      Du siehst mich an , und sagst kein Wort
+      Es ist ein Tag wie jeder andere und du willst fort
+      Kein Plan kein Ziel nur der Moment
+      Doch was wir tun entscheidet wer wir sind
+
+      Pre Chr.
+      Ich nehm dich bei der Hand, denn ich spür deine Angst
+
+      Chr.
+      Wenn der Boden beebt, wenn der Wind sich dreht
+      Wenn die Wellen schlagen, Wir stehn zusammen
+      Wenn der Sturm uns ruft, zählt am ende Mut
+      Wir stehn zusammen
+
+      Strophe 2
+      Die Luft ist kühl, der Druck steigt an
+      Was gestern war, fängt heute neu an
+      Wir sagen wenig doch wir gehen, nicht weil wir müssen,
+      Weil wirs verstehen
+
+      Pre Chr.
+      Ich nehm dich bei der Hand, denn ich spür deine Angst
+
+      Chr.
+      Wenn der Boden beebt, wenn der Wind sich dreht
+      Wenn die Wellen schlagen, Wir stehn zusammen
+      Wenn der Sturm uns ruft, zählt am Ende Mut
+      Wir stehn zusammen.
+
+      Ich nehm dich bei der Hand, denn ich spür deine Angst
+
+      Chr.
+      Wenn der Boden beebt, wenn der Wind sich dreht
+      Wenn die Wellen schlagen, Wir stehn zusammen
+      Wenn der Sturm uns ruft, zählt am ende Mut
+      Wir stehn zusammen
+
+      Clap clap
+      Solo!
+
+      Chr.
+      Wenn der Boden beebt, wenn der Wind sich dreht
+      Wenn die Wellen schlagen, Wir stehn zusammen
+      Wenn der Sturm uns ruft, zählt am ende Mut
+      Wir stehn zusammen
+    '''
+  ),
+  sonnenuntergang(
+    title: 'Sonnenuntergang',
+    text: '''
+      Strophe 1:
+      Es bringt nichts, fühl mich leer, auch wenn du neben mir stehst.
+      Meine Gedanken kreisen weiter, finde keinen Ausweg, nichts vergeht.
+      Zwischen den Zeilen verborgen, sind die Sorgen, die du siehst aber nicht verstehst.
+      Ich ziehe dich mit hinunter, während alles weiter geht.
+
+      Pre-Chorus:
+      Und es fühlt sich an, als ob ich falle, doch ich schweige.
+      Mein Schatten verschwindet leise, es gibt Gedanken die kreisen .
+
+      Chorus:
+      Es ist alles zwischen den Zeilen, so schwer zu verstehen.
+      In meinem Kopf werden Gedanken laut: „lass mich gehen!“
+
+      Strophe 2:
+      In der Stille meiner Nächte, wo es kein Ausweg mehr gibt,
+      ich greife nach dem Seil, das mich befreit.
+      Doch meine Sorgen sind so schwer dass das Seil zerreißt.
+      Ich sinke immer ein Stück tiefer, und niemand kann es seh’n.
+
+      Chorus:
+      Es ist alles zwischen den Zeilen, so schwer zu verstehen.
+      In meinem Kopf werden Gedanken Laut: „Lass mich gehen!“
+
+      Outro:
+      Ich stelle mir noch einmal vor den Sonnenuntergang zu sehn, mache die Augen zu es wird leiser und leiser.
+      In der Stille hör ich mein Herz rasen.
+      War es das Wert,
+      Ich werde es nie erfahren!
+    '''
+  ),
+
+  anweisungAnrathVorPortrait(
+    title: 'Anweisung',
+    text: 'Dritte Chance – Interaktion (Habt ihr Bock)?'
+  ),
+  anweisungAnrathVorHinterDemLicht(
+    title: 'Anweisung',
+    text: 'Intro Jump jump jump!'
+  ),
+  anweisungAnrathVorWennDuGehst(
+    title: 'Anweisung',
+    text: 'Seid ihr noch da?! wohooo wohooo Ansingen lassen'
+  ),
+  anweisungAnrathVorKettenreaktion(
+    title: 'Anweisung',
+    text: 'Hände!'
+  ),
+  anweisungAnrathVorBisDieWeltUntergeht(
+    title: 'Anweisung',
+    text: '''
+      Dieser Song ist für alle, die schon mal dachten, sie stehen alleine da – heute stehen wir zusammen!
+
+      -----------------------
+
+      Und jetzt alle runter!“ (→ COLLECTIVE JUMP beim Re-Entry)
+    '''
+  ),
+  anweisungAnrathVorZuSpaet(
+    title: 'Anweisung',
+    text: 'Energie? – !'
+  ),
+  anweisungAnrathVorSchweigen(
+    title: 'Anweisung',
+    text: 'Macht Lärm für LUKE am Schlagzeug! – Seid ihr bereit für die letzte Runde?!'
+  ),
+  anweisungAnrathEnde(
+    title: 'Anweisung',
+    text: 'Danke, Danke TON/LICHT/Veranstalter, Dritte Chance, SOCIALS, Merch!'
   );
 
   final String title;
