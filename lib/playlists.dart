@@ -74,6 +74,22 @@ enum Playlist {
       Song.allesNeu,
       Song.anweisungAnrathEnde
     ]
+  ),
+  spHKoeln(
+    title: 'SPH Köln',
+    songs: <Song>[
+      Song.anweisungAnrathVorPortrait,
+      Song.portrait,
+      Song.anweisungAnrathVorHinterDemLicht,
+      Song.hinterDemLicht,
+      Song.anweisungAnrathVorKettenreaktion,
+      Song.kettenreaktion,
+      Song.anweisungAnrathVorZuSpaet,
+      Song.zuSpaet,
+      Song.anweisungAnrathVorSchweigen,
+      Song.schweigen,
+      Song.allesNeu
+    ]
   );
 
   final String title;
