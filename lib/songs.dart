@@ -904,6 +904,72 @@ enum Song {
       Ich werde es nie erfahren!
     '''
   ),
+  jetztFragIchMich(
+    title: 'Jetzt frag ich mich',
+    text: '''
+      Strophe 1
+      Bis jetzt tanzten wir den immer gleichen Tanz
+      Tag ein Tag aus war jeder Schritt durchgeplant
+      Ich versprach dir, alles was meins ist ist auch deins
+      Und mit dir war die Sonne näher als sie scheint
+
+      Aber jetzt frag ich mich
+
+      Chorus
+      Wenn da nur ein Ausweg wär 
+      Um von hier zu dir zu finden
+      Dann würde ich alles probieren,
+      Damit wir wieder neu beginnen
+
+      Wenn da nur ne Lösung wär
+      Um alle Antworten zu finden
+      Dann würd ich keinen schritt bereun’
+      Um zu dir durchzudringen,
+
+      Doch du hörst mich nicht zu 
+
+      Strophe 2
+      Wir haben jeden Moment für uns festgehalten
+      Die Cloud voll Erinnerungen, im Backup gespeichert
+      Du versprachst mir, dass du nie aufhörst an uns zu glauben
+      Damit fingst du an mir mein Herz zu rauben
+
+      Aber jetzt frag ich mich  
+
+      Chorus
+      Wenn da nur ein Ausweg wär 
+      Um von hier zu dir zu finden
+      Dann würde ich alles probieren,
+      Damit wir wieder neu beginnen
+
+      Wenn da nur ne Lösung wär
+      Um alle Antworten zu finden
+      Dann würd ich keinen schritt bereun’
+      Um zu dir durchzudringen,
+
+      Doch du hörst mir nicht zu 
+
+      Bridge
+
+      Ich frag mich bist du genauso so einsam
+      Und können wir die Zeit nicht zurückdrehen 
+      Wir haben soviel erlebt gemeinsam
+      Und trotzdem lässt du mich, hier stehen
+
+      Chorus
+      Wenn da nur ein Ausweg wär 
+      Um von hier zu dir zu finden
+      Dann würde ich alles probieren,
+      Damit wir wieder neu beginnen
+
+      Wenn da nur ne Lösung wär
+      Um alle Antworten zu finden
+      Dann würd ich keinen schritt bereun’
+      Um zu dir durchzudringen,
+
+      Doch du hörst mir nicht zu
+    '''
+  ),
 
   anweisungAnrathVorPortrait(
     title: 'Anweisung',

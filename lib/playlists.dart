@@ -23,7 +23,8 @@ enum Playlist {
       Song.freierFall,
       Song.heyDu,
       Song.wirStehenZusammen,
-      Song.sonnenuntergang
+      Song.sonnenuntergang,
+      Song.jetztFragIchMich
     ]
   ),
   sphHelvete(
