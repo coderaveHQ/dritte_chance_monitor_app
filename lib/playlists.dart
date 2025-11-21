@@ -24,7 +24,7 @@ enum Playlist {
       Song.heyDu,
       Song.wirStehenZusammen,
       Song.sonnenuntergang,
-      Song.jetztFragIchMich
+      Song.tagEinTagAus
     ]
   ),
   sphHelvete(
@@ -90,6 +90,30 @@ enum Playlist {
       Song.anweisungAnrathVorSchweigen,
       Song.schweigen,
       Song.allesNeu
+    ]
+  ),
+  ndHeim(
+    title: 'ND Heim',
+    songs: <Song>[
+      Song.anweisungAnrathVorPortrait,
+      Song.portrait,
+      Song.anweisungAnrathVorHinterDemLicht,
+      Song.hinterDemLicht,
+      Song.anweisungAnrathVorWennDuGehst,
+      Song.wennDuGehst,
+      Song.anweisungAnrathVorKettenreaktion,
+      Song.kettenreaktion,
+      Song.untergang,
+      Song.tagEinTagAus,
+      Song.anweisungAnrathVorBisDieWeltUntergeht,
+      Song.bisDieWeltUntergeht,
+      Song.niemand,
+      Song.anweisungAnrathVorZuSpaet,
+      Song.zuSpaet,
+      Song.anweisungAnrathVorSchweigen,
+      Song.schweigen,
+      Song.allesNeu,
+      Song.anweisungAnrathEnde
     ]
   );
 

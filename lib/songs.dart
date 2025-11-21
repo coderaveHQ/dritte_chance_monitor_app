@@ -904,8 +904,8 @@ enum Song {
       Ich werde es nie erfahren!
     '''
   ),
-  jetztFragIchMich(
-    title: 'Jetzt frag ich mich',
+  tagEinTagAus(
+    title: 'Tag ein Tag aus',
     text: '''
       Strophe 1
       Bis jetzt tanzten wir den immer gleichen Tanz
